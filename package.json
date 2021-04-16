@@ -6,15 +6,18 @@
   "author": "LWDM <woland.de.mord@gmail.com>",
   "private": true,
   "scripts": {
-    "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "gogogo": "quasar dev"
   },
   "dependencies": {
     "@babel/preset-react": "^7.12.13",
     "@quasar/extras": "^1.0.0",
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
     "firebase": "^8.2.6",
     "firebase-admin": "^9.5.0",
+    "mongoose": "^5.12.0",
+    "nedb": "^1.8.0",
     "quasar": "^1.0.0",
     "sqlite3": "^5.0.2",
     "vuefire": "^3.0.0-alpha.2",
@@ -30,7 +33,8 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^6.1.2"
+    "eslint-plugin-vue": "^6.1.2",
+    "nodemon": "^2.0.7"
   },
   "browserslist": [
     "last 10 Chrome versions",

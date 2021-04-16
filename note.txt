@@ -8,3 +8,4 @@
 
 Удаление строки Ctrl+x
 
+пароль тестовой бд igbQIjjNG0bvLW7S (admin)
