@@ -1,0 +1,102 @@
+  имя                   переменная    тип       пример
+
+#общие данные
+  Номер базы 1С         baseNumber    number    156
+  Ночные работы         nightWorks    boolean   Да / Нет
+  Согласование с ТЦ     agrWorks      boolean   Да / Нет
+  тип ТТ                type          boolean   false Салон / true Модуль
+  POSID                 posid         number    123456
+  адрес                 adr           string    Москва, Улица, Дом
+  Салон открыт          storeActive   boolean   active:true
+  Дата открытия         storeOpenDate string    18.04.2016
+  Дата закрытия         storeCloseDate  string  --.--.----     
+  Камеры БЦ             storeCam      number    2
+  Кол-во входов в Салон storeEnter    number    1
+  Кол-во рабочих мест   storeArm      number    2
+  Счётчик посетителей   intVisCount   Array     1: MegaCount 
+  Количество ккм        storeKkm      number    1
+
+# сеть и интернет
+  провайдер             extProvider   string    Энфорта
+  стоимость             extCost       number    1450.00
+  cкорость              extSpeed      number    5
+  внешн.IP              extIp         string    77.41.17.54    
+  маска                 extMask       string    255.255.255.0
+  шлюз                  extGate       string    77.41.17.1
+  dns1                  extDNS1       string    8.8.8.8
+  dns2                  extDNS2       string    8.8.4.4
+  Подсеть               intIp         string    192.168.10.X
+  Принтер               intPrint      string    192.168.10.25
+  Видеорегистратор      intDvr        string    192.168.10.100
+  Роутер                intRouter     string    192.168.10.1
+  Порт Видеорегистратор intDvrPort    number    :55100
+  Порт Роутер           intRouterPort number    :55000   
+  IP СП                 intVisCountIP string    192.168.10.23
+  IP Безнал             intPosIP      string    192.168.10.23
+  Камера Теле2          vpnDeviceT2   string    false Cisco ASA / true Mikrotik
+    IP mikrotik         vpnIpT2       string    192.168.10.115
+    PW mikrotik         vnpPw         string    nhMG5Don4e
+
+# подключение
+  RDP ARM1              rdpArm1       string    192.168.10.2:55200
+  RDP ARM2              rdpArm2       string    192.168.10.6:55300
+  TeamViewer ARM1       tvArm1        string    640 154 458
+  TeamViewer ARM2       tvArm2        string    897 145 446
+  AmmyAdmin ARM1        ammyArm1      string    64 154 458
+  AmmyAdmin ARM2        ammyArm2      string    84 654 321
+
+# доп.сервисы
+  Retail Music Player   musicPlayer   string    Готов к работе / Работает / Не работает
+  Аудиомикшер           musicMixer    Boolean
+  Виртуальная витрина   virtualStore  string    Нет / Активация / Работает / Не работает
+  Теко                  tekoActive    string    Нет / Неакцептован / Акцептован
+  Дата Акцепта          tekoDate      date      18.04.2021
+  Камера Теле2          camT2         string    Нет / Установлена / В поддержке 
+  HotSpot               hotspot       string    Нет / Установлен  / Работает / Не работает
+  Телевизор             storeZombo    boolean   Нет / Установлен
+  Сертификат РТК        storeRtk      boolean   Есть    
+
+
+#контакты 
+  Территориал           terrName      string    Супаев Дмитрий
+  Номер                 terrPhone     string    +7 (945) 455-45-45
+  Почта                 terrEmail     string    supaev@tele2.ru
+
+  Супервайзер           svName        string    Кушниренко Денис
+  Номер                 svPhone       string    +7 (658) 456-78-65
+  Почта                 svEmail       string    supervisor.msk@interantenna.ru
+  Камера                svCam         string    1407358w
+
+  РТТ                   storeRtt      string    Какойто Вася
+  Камера                rttCam        string    1407358v
+  Номер                 rttPhone        string    
+
+  Почта                 storeEmail    string    mskt_gprs027@interantenna.ru
+  пароль почты          storeEmailPW  string    mskt027
+  Jabber 1              storeJabber1  string    mskt0271
+  Jabber 1 PW           storeJabberPW1  string  1117mskt0271
+  Jabber 2              storeJabber2  string    mskt0272
+  Jabber 2 PW           storeJabberPW2  string  1117mskt0272
+  Jabber 3              storeJabber3  string    mskt0273
+  Jabber 3 PW           storeJabberPW3  string  1117mskt0273
+
+  Почта Т2              t2Email       string    790421.msk@t2retail.ru
+  Почта Т2 PW           t2EmailPW     string    52ABP45kf
+
+#ккм
+  Заводской             kkmFactNum    number    00106200001704
+  Регистрационный       kkmRegNum     number    0004 3224 4604 5029
+  КПП точки             kkmRegReasonCode  number  77548510
+  Модель ккм            kkmModel      string    Атол 55ф
+
+  ФН                    kkmFnNum      number    9280440300663474
+  Активация             kkmFnAct      boolean   Нет / Активирован
+  Дата активации        kkmFnData     number    18.04.2016
+  Модификатор даты      kkmFnMod      number    5
+  
+  ОФД                   kkmOfdNum     number    Нет / Активирован
+  Активация             kkmOfdAct     boolean   Нет / Активирован
+  Дата активации        kkmOfdData    number    18.04.2016
+  Модификатор даты      kkmOfdMod     number    5
+  
+

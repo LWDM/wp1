@@ -6,7 +6,7 @@ export default {
   addNewStore (params) {
     return api().post('test', params)
   },
-  getPost (params) {
+  getStore (params) {
     return api().get(`tt_book/${params.id}`)
   }
 }

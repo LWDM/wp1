@@ -2,8 +2,10 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import routes from './routes'
+import VueMomentLib from 'vue-moment-lib'
 
 Vue.use(VueRouter)
+Vue.use(VueMomentLib)
 
 /*
  * If not building with SSR mode, you can

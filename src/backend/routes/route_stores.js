@@ -1,5 +1,5 @@
 const express = require('express')
-const { db } = require('../model/store-model')
+const db = require('../model/store-model')
 const router = express.Router()
 const Store = require('../model/store-model')
 
@@ -21,17 +21,17 @@ router.post('/test', (req, res) => {
 })
 
 router.get('/tt_book', (req, res) => {
-  Store.find({}, 'posid adr', (err, stores) => {
+  Store.find({}, (err, stores) => {
     if (err) {
       res.sendStatus(500)
     } else {
       res.send({ stores: stores })
     }
-  }).sort({ _id: -1 })
+  }).sort({ adr: 1 })
 })
 
 router.get('/tt_book/:id', (req, res) => {
-  Store.findById(req.params.id, 'posid adr', (_err, stores) => {
+  Store.findById(req.params.id, (_err, stores) => {
     if (_err) {
       res.sendStatus(500)
     } else {
